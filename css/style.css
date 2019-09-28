@@ -1,0 +1,54 @@
+/* All text, unless otherwise specified */
+body {
+    background-color: #efeee7;                                  
+    font-family: "Georgia", "Times New Roman", Times, serif;    /* fonts used */
+    color: #333333;                                           /* color is dark grey */
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;                                           /* 1.5 line spacing */
+}
+   
+header {                                                        /* page header */
+    background-color: #333333;
+}
+
+h1 {                                                            /* h1: white font, 28px, padding 5px top & 15px bottom, text centered */
+    color: #eee;
+    font-size: 28px;
+    padding: 5px 0px 15px;
+    text-align: center;
+}
+
+h2 {                                                            /* h2: smaller font */
+    font-size: 24px;
+}
+
+a {                                                             /* anchor links are red */
+    color: #d21034;
+}
+
+li {
+    text-emphasis: strong;                                      /* text for line items are bold */
+}
+.container {                                                    /* container div is 75% of the page, and centered */
+    margin: 0 auto;
+    width: 75%;
+}
+
+#main-bio, #contact-info, #bio-image {                          /* these items are beside each other (no line break) */
+    float: left;
+}
+
+#bio-image {                                                    /* size of image, and leave space before text */
+    width: 200px;
+    margin-right: 15px;
+}
+
+#main-bio {                                                     /* width of bio paragraph uses 70% of space */
+    width: 70%;
+}
+
+#contact-info {                                                 /* width of contacts */
+    width: 30%;
+}
+
